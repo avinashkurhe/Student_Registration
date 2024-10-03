@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #container {
+
+            background-color: aqua;
+            margin: 110px 450px 10px 450px;
+            border-radius: 7px;
+            box-shadow: 10px 5px lightgray;
+        
+        }
+        #container:hover{
+            transform: scale(1.01);
+        }
+       
+        form {
+            padding: 20px;
+        }
+
+        label {
+            padding: 10px;
+            font-size: 17;
+            font-weight: bolder;
+        }
+
+        input {
+            padding: 8px;
+        }
+
+        #email {
+            margin-left: 52px;
+        }
+
+        #password {
+            margin-left: 28px;
+        }
+
+        #Register {
+            margin-left: 15px;
+            font-weight: bold;
+        }
+        #Register:hover{
+            color: red;
+            font-weight: bold;
+        }
+
+
+        #forget {
+            margin-left: 100px;
+            font-weight: bold;
+        }
+        #forget:hover{
+            color: red;
+            font-weight: bold;
+        }
+
+        #btn {
+            background-color: white;
+            padding: 10px 150px 12px;
+            color: blue;
+            border: 2px solid;
+            border-radius: 5%;
+            
+        }
+        #btn:hover{
+            background-color: darkblue;
+            color: white;
+            border: 2px solid;
+
+        }
+
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: green;
+        }
+
+        div{
+            margin-bottom: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eg</title>
+</head>
+
+<body>
+    <div id="container">
+        <form action="index.html">
+
+            <h3>Login</h3>
+            <hr>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" placeholder="Enter Email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" placeholder="Enter Password" id="password" required>
+            </div>
+
+
+            <a href="regi.html" id="Register">Register</a>
+            <a href="forget_pass.html" id="forget">Forget password</a>
+            <br><br>
+            <button id="btn" type="submit">Login</button>
+            <br><br>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

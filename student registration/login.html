@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      background-color: pink;
+    }
+
+    form {
+      border: 3px solid #f1f1f1;
+    }
+
+    input[type=text],
+    input[type=password],
+    input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    .cancelbtn {
+      float: right;
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+
+    .imgcontainer {
+      text-align: center;
+      margin-top: auto;
+    }
+
+    img.avatar {
+      width: 30%;
+      border-radius: 50%;
+    }
+
+    .container {
+      margin-left: 460px;
+      padding: 10px;
+      width: 300px;
+      background-color: lavender;
+    }
+    .fp{
+      margin-left: 40px;
+    }
+    h2{
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  
+    <h2>Login Form</h2>
+  
+  <div class="container">
+    <form action="index.html" method="post">
+      <table>
+        <div class="imgcontainer">
+          <tr>
+            <td colspan="2" class="imgcontainer"><img src="img/user.png" alt="Avatar" class="avatar"></td>
+          </tr>
+        </div>
+        <tr>
+          <td><label for="uname"><b>Email Id</b></label></td>
+          <td><input type="text" placeholder="Enter Email" name="uname" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="psw"><b>Password</b></label></td>
+          <td><input type="password" placeholder="Enter Password" name="psw" required>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"> <button type="submit">Login</button></td>
+
+        </tr>
+
+        <tr>
+          <td> <a href="regi.html">Register</a></td>
+          
+            <td style=" padding-left: 60px;" colspan="2">Forgot <a href="forget_pass.html">password?</a></td>
+          
+        </tr>
+
+      </table>
+    </form>
+  </div>
+
+</body>
+
+</html>
